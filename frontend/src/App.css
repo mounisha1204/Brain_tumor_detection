@@ -1,0 +1,53 @@
+
+.App {
+  text-align: center;
+  background-color: black;
+  color: rgb(251, 249, 249);
+}
+
+#slide {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  margin-top: 40px;
+}
+
+#left {
+  flex: 1; /* takes 50% */
+  height: 600px;
+  border: 2px solid black;
+  background-image: url("scan11.jpg");
+  background-size: cover;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#right {
+  flex: 1; /* takes other 50% */
+  height: 600px;
+  border: 2px solid rgb(1, 1, 1);
+  background-color: rgb(8, 8, 8);
+  opacity: 30%;
+  display: flex;               /* enable flexbox */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;             /* BIG font */
+  font-weight: 900;            /* TOUGH + bold */
+  line-height: 1.2;            /* keep spacing tighter */
+  word-wrap: break-word;       /* wrap text if too long */
+}
+@keyframes slide {
+  0% {
+    background-image: url("scan11.jpg");
+  }
+  50% {
+    background-image: url("scan22.jpg");
+  }
+  100% {
+    background-image: url("scan3.jpg");
+  }
+}

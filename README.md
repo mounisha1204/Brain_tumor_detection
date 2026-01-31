@@ -1,5 +1,5 @@
 # Brain_tumor_detection
-Brain Tumor Detection is a full stack web application built using React.js and Python (Flask/Django) that uses a CNN deep learning model to predict brain tumors from MRI images. Users can upload scans through the UI and get real-time prediction results via a backend API.
+Brain Tumor Detection is a full stack web application built using React.js and Python and FASTAPI that uses a CNN deep learning model to predict brain tumors from MRI images. Users can upload scans through the UI and get real-time prediction results via a backend API.
 # Brain Tumor Detection Full Stack Project
 
 This is a full stack web application built using React.js and Python FAST API to detect brain tumors from MRI images using a CNN deep learning model.
@@ -12,7 +12,8 @@ This is a full stack web application built using React.js and Python FAST API to
 
 ## Tech Stack
 - React.js
-- Python (Flask/Django)
+- Python
+- FASTAPI
 - TensorFlow/Keras
 - OpenCV
 
